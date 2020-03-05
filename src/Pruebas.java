@@ -26,6 +26,7 @@ public class Pruebas {
 		driver.manage().window().maximize();
 		driver.manage().window().maximize();
 		driver.findElement(By.id("username")).sendKeys("vendedorgenericocolombia@axity.com");
+		driver.findElement(By.id("username")).sendKeys("vendedorgenericocolombia@axity.com");
 		driver.findElement(By.id("password")).sendKeys("analista123");
 		driver.findElement(By.id("Login")).click();
 		driver.findElement(By.id("Logeqin")).click();
