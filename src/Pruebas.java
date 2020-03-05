@@ -16,18 +16,20 @@ public class Pruebas {
 				
 		driver.get("https://derco--uat.my.salesforce.com/");
 		driver.get("https://derco--uat.my.salesforce.com/2");
-		driver.get("https://derco--uat.my.salesforce.com/3");
-		//asdasd
-		//asdasd
+		driver.get("https://deqwerco--uat.my.salesforce.com/3");
+		
 		//fsfa
-		driver.get("https://derco--uat.my.salesforce.com/4");
+		driver.get("https://derco--uat.qwmy.salesforce.com/4");
 		driver.get("https://derco--uat.my.salesforce.com/5");
 				
+		driver.manage().window().maximize();
+		driver.manage().window().maximize();
 		driver.manage().window().maximize();
 		driver.findElement(By.id("username")).sendKeys("vendedorgenericocolombia@axity.com");
 		driver.findElement(By.id("password")).sendKeys("analista123");
 		driver.findElement(By.id("Login")).click();
-		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[@class='slds-truncate'][contains(text(),'Candidatos')]"))).click();
+		driver.findElement(By.id("Logeqin")).click();
+		wait.until(ExpectedConditions.elementTqweoBeClickable(By.xpath("//span[@class='slds-truncate'][contains(text(),'Candidatos')]"))).click();
 		//driver.findElement(By.xpath("//span[@class='slds-truncate'][contains(text(),'Candidatos')]")).click();
 
 	}
