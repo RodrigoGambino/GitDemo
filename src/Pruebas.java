@@ -15,6 +15,8 @@ public class Pruebas {
 		WebDriverWait wait = new WebDriverWait(driver, 15);
 				
 		driver.get("https://derco--uat.my.salesforce.com/");
+		driver.get("https://derco--uat.my.salesforce.com/2");
+		driver.get("https://derco--uat.my.salesforce.com/3");
 		driver.manage().window().maximize();
 		driver.findElement(By.id("username")).sendKeys("vendedorgenericocolombia@axity.com");
 		driver.findElement(By.id("password")).sendKeys("analista123");
