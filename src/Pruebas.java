@@ -22,9 +22,7 @@ public class Pruebas {
 		//fsfa
 		driver.get("https://derco--uat.my.salesforce.com/4");
 		driver.get("https://derco--uat.my.salesforce.com/5");
-		driver.get("https://derco--uat.my.salesforce.com/6");
-		driver.get("https://derco--uat.my.salesforce.com/7");
-		
+				
 		driver.manage().window().maximize();
 		driver.findElement(By.id("username")).sendKeys("vendedorgenericocolombia@axity.com");
 		driver.findElement(By.id("password")).sendKeys("analista123");
